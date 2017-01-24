@@ -9,7 +9,6 @@ twitter_username:
 github_username:  samfeng279
 
 # Build settings
-markdown: kramdown
 sass:
   sass_dir: _sass
 include: ['_pages']
