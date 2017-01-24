@@ -11,6 +11,11 @@ title {
 	color: #81a3a7;
 	font-family: $heading-font;
 	line-height: 1.5;
+	a,
+	a:visited {
+		text-decoration: none;
+		/*color: $main;*/
+	}
 }
 h1,
 h2,
