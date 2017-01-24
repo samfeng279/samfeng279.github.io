@@ -69,7 +69,9 @@
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-
+/**
+ * Icons
+ */
 .icon {
 
     > svg {
@@ -81,5 +83,40 @@
         path {
             fill: $grey-color;
         }
+    }
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
     }
 }
