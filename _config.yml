@@ -3,8 +3,8 @@ title: Sam Feng's Site
 email: sfeng.oicr@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Practice personal website using Jekyll and MERN stack.
-baseurl: "" 
-url: samfeng279.github.io
+baseurl: "/samfeng279.github.io" 
+url: "https://samfeng279.github.io"
 twitter_username: 
 github_username:  samfeng279
 
