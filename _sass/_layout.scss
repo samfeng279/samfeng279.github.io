@@ -6,7 +6,12 @@ body {
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 }
-title,
+title {
+	font-weight: 600;
+	color: #81a3a7;
+	font-family: $heading-font;
+	line-height: 1.5;
+}
 h1,
 h2,
 h3 {
