@@ -45,17 +45,6 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	title {
-		font-weight: 600;
-		color: #81a3a7;
-		font-family: $heading-font;
-		line-height: 1.5;
-		a,
-		a:visited {
-			text-decoration: none;
-			/*color: $main;*/
-		}
-	}
 }
 main {
 	padding: 0 15px;
