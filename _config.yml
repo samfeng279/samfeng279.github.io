@@ -1,8 +1,8 @@
 # Site settings
 title: Sam Feng's Site
 email: sfeng.oicr@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Practice personal website using Jekyll and MERN stack.
+description: > 
+  Practice personal website generating utilizing Jekyll, GitHub pages and MERN stack.
 baseurl: "/samfeng279.github.io" 
 url: "https://samfeng279.github.io"
 twitter_username: 
