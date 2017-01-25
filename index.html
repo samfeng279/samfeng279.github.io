@@ -16,6 +16,10 @@ layout: home
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         
+        <p class="excerpt">
+          {{post.excerpt | strip_html | strip_newlines}}
+        </p>
+        
       </li>
     {% endfor %}
   </ul>
