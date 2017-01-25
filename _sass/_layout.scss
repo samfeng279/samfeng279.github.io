@@ -26,6 +26,10 @@ h1 {
 h2 {
 	font-size: 2em;
 }
+headline {
+	-webkit-margin-before: 0em;
+    	-webkit-margin-after: 2em;
+}
 a,
 a:visited {
 	color: $link-color;
