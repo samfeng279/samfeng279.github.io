@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact/
 ---
 
-Contact content goes here.
+Email: sfeng.oicr@gmail.com
