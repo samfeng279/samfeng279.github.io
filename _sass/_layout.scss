@@ -46,6 +46,15 @@ header {
 	justify-content: center;
 	align-items: center;
 }
+padding {
+	padding: 0px 15px;
+	text-align: center;
+	margin: 50px 0 0;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 main {
 	padding: 0 15px;
 	max-width: $content-width;
