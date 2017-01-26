@@ -238,6 +238,9 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    .social-media-list {
+	    -webkit-padding-start: 0px;
+	}
 }
 
 li {
