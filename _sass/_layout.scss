@@ -25,6 +25,7 @@ h1 {
 }
 h2 {
 	font-size: 2em;
+	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0.4em;
 }
 headline {
@@ -75,6 +76,10 @@ time {
 	max-width: $content-width;
 	margin: 0 auto;
 }
+span.post-meta {
+	font-size: 15px;
+	color: #828282;
+}
 
 /* Aside */
 
@@ -124,7 +129,6 @@ aside {
 
 footer {
 	text-align: center;
-	padding: 40px;
 }
 
 /**
