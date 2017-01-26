@@ -241,9 +241,6 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
-    .social-media-list {
-	    -webkit-padding-start: 0px;
-	}
 }
 
 li {
@@ -251,4 +248,7 @@ li {
     > ol {
          margin-bottom: 0;
     }
+}
+ul.social-media-list {
+    -webkit-padding-start: 0px;
 }
