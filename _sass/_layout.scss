@@ -25,7 +25,7 @@ h1 {
 }
 h2 {
 	font-size: 2em;
-	-webkit-margin-before: 0;
+	-webkit-margin-before: 0.1em;
 	-webkit-margin-after: 0.6em;
 }
 headline {
@@ -77,6 +77,7 @@ time {
 	margin: 0 auto;
 }
 span.post-meta {
+	font-style: italic;
 	font-size: 15px;
 	color: #828282;
 }
