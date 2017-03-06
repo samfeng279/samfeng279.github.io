@@ -8,10 +8,10 @@ layout: default
 {{ content }}
 
 <div>
-  {% if post.previous.url %}
+  {% if page.previous.url %}
     <a href="{{page.previous.url}}">&laquo; Previous</a>
   {% endif %}
-  {% if post.next.url %}
+  {% if page.next.url %}
     <a href="{{page.next.url}}">Next &raquo;</a>
   {% endif %}
 </div>
