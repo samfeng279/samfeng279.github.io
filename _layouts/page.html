@@ -6,7 +6,7 @@ layout: default
    
     {{ content }}
 
-{% assign paging = site[page.collection] | group_by: "category" | sort: "name" | map: "name" %} 
+{% assign paging = site[page] | group_by: "category" | sort: "name" | map: "name" %} 
 
 {% for item in paging %}
   {% if item == page.category %}
