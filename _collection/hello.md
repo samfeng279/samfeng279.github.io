@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: collection
 title: hello
 permalink:
 ---
 
-content: Test
+Test
