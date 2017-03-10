@@ -1,6 +1,6 @@
 ---
 layout: page
-title: hello
+title: hello2
 permalink:
 ---
 
