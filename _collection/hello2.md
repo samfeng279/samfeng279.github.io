@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: hello2
-permalink:
+permalink: ""
 ---
 
 Retest
