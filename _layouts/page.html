@@ -34,3 +34,16 @@ layout: default
 {% for item in paging limit: 1 offset: prev %}
   {% assign prev = item %}
 {% endfor %}
+
+<section class="paging">
+  <div class="left">
+    <a href="{{ prev | prepend:site.baseurl }}">
+      ‹ prev
+    </a>
+  </div>
+  <div class="right">
+    <a href="{{ next | prepend: site.baseurl }}">
+      next ›
+    </a>
+  </div>
+</section>
