@@ -1,12 +1,17 @@
 # Site settings
 title: Sam Feng's Site
 email: sfeng.oicr@gmail.com
-description: > 
+description: >
   Practice personal website generating utilizing Jekyll, GitHub pages and MERN stack.
-baseurl: "/samfeng279.github.io" 
+baseurl: "/samfeng279.github.io"
 url: "https://samfeng279.github.io"
-twitter_username: 
+twitter_username:
 github_username:  samfeng279
+
+collections:
+  _collection:
+    output: true
+    permalink: /collection/:title.html
 
 # Build settings
 sass:
@@ -14,3 +19,4 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
+markdown: kramdown

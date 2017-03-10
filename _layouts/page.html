@@ -3,16 +3,16 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-   
+
     {{ content }}
 
-{% assign paging = site[page] | group_by: "category" | sort: "name" | map: "name" %} 
+{% assign paging = site[page.collections] | group_by: "category" | sort: "name" | map: "name" %}
 
 {% for item in paging %}
   {% if item == page.category %}
     {% assign next = forloop.index0 | plus: 1 %}
     {% assign prev = forloop.index0 | minus: 1 %}
-    
+
 <!-- arrays start at 0; minus 1 from size -->
     {% if forloop.first %}
       {% assign prev = paging | size | minus: 1 %}
