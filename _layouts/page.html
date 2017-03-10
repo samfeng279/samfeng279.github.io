@@ -35,15 +35,15 @@ layout: default
   {% assign prev = item %}
 {% endfor %}
 
-<section class="paging">
-  <div class="left">
+<div>
+  <div>
     <a href="{{ prev | prepend:site.baseurl }}">
       ‹ prev
     </a>
   </div>
-  <div class="right">
+  <div>
     <a href="{{ next | prepend: site.baseurl }}">
       next ›
     </a>
   </div>
-</section>
+</div>
