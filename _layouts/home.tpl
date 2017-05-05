@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+{% include head.inc %}
 
 <header>
 	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 </header>
 
 <body>
-	{% include header.html %}
+	{% include header.inc %}
 	<main>
 		<article>
 			{{ content }}
 		</article>
-		{% include footer.html %}
+		{% include footer.inc %}
 	</main>
 </body>
 	

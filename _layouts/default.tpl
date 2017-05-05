@@ -5,12 +5,12 @@
 <padding> </padding>
 
 <body>
-	{% include nav.html %}
+	{% include nav.inc %}
 	<main>
 		<article>
 			{{ content }}
 		</article>
-		{% include footer.html %}
+		{% include footer.inc %}
 	</main>
 </body>
 	
