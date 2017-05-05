@@ -5,7 +5,7 @@
 <padding> </padding>
 
 <body>
-	{% include header.html %}
+	{% include nav.html %}
 	<main>
 		<article>
 			{{ content }}
