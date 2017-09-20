@@ -7,7 +7,7 @@
 </header>
 
 <body>
-	{% include header.inc %}
+	{% include head.inc %}
 	<main>
 		<article>
 			{{ content }}
