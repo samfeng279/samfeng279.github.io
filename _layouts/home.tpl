@@ -8,6 +8,7 @@
 
 <body>
 	{% include head.inc %}
+    {% include nav.inc %}
 	<main>
 		<article>
 			{{ content }}

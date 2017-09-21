@@ -3,7 +3,7 @@ title: Sam Feng's Site
 email: sfeng.oicr@gmail.com
 description: >
   Practice personal website generating utilizing Jekyll, GitHub pages and MERN stack.
-baseurl: "/samfeng279.github.io"
+baseurl: "/"
 url: "https://samfeng279.github.io"
 twitter_username:
 github_username:  samfeng279
@@ -20,3 +20,9 @@ include: ['_pages']
 # kramdown:
 #  input: GFM
 markdown: kramdown
+
+plug-ins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
