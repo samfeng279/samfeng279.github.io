@@ -3,10 +3,12 @@ title: Sam Feng's Site
 email: sfeng.oicr@gmail.com
 description: >
   Practice personal website generating utilizing Jekyll, GitHub pages and MERN stack.
-baseurl: "/"
+baseurl: "/samfeng279.github.io"
 url: "https://samfeng279.github.io"
 twitter_username:
 github_username:  samfeng279
+
+permalink: pretty
 
 collections:
   _collection:

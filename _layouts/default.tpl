@@ -10,7 +10,7 @@
 		<article>
 			{{ content }}
 		</article>
-		{% include footer.inc %}
+<!--		{% include footer.inc %}-->
 	</main>
 </body>
 	

@@ -2,7 +2,7 @@
 <html>
 {% include head.inc %}
 
-<header>
+<header class="home">
 	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 </header>
 
@@ -13,7 +13,7 @@
 		<article>
 			{{ content }}
 		</article>
-		{% include footer.inc %}
+<!--		{% include footer.inc %}-->
 	</main>
 </body>
 	
