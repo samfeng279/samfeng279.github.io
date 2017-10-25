@@ -3,7 +3,7 @@
 {% include head.inc %}
 
 <header class="home">
-	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+	<h1>Sam Feng</h1>
 </header>
 
 <body>
