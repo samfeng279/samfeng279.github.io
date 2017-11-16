@@ -8,7 +8,7 @@ body {
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
-    height: 90%
+    height: 90%;
 }
 h1,
 h2,
@@ -64,7 +64,6 @@ a:hover {
 	text-decoration: underline;
 }
 header {
-//	background: $header;
     background-image: url("/samfeng279.github.io/assets/images/background.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -87,17 +86,12 @@ padding {
 	justify-content: center;
 	align-items: center;
 }
+.nav-container,
 main {
-	padding: 0 15px;
-	max-width: $content-width;
-	margin: 0 auto;
+	margin: 0 6.5em;
 }
 time {
 	color: #898989;
-}
-.container {
-	max-width: $content-width;
-	margin: 0 auto;
 }
 span.post-meta {
 	font-style: italic;
@@ -130,6 +124,12 @@ aside {
 			li {
 				float: left;
 				position: relative;
+                ul li {
+                    border-right: 1px solid rgba($header, 0.5);
+                    &:first-child {
+                        border-left: 1px solid rgba($header, 0.5);
+                    }
+                }
 				a {
 					text-decoration: none;
 					display: block;
@@ -337,4 +337,58 @@ CSS for Sidebar (optional)
 ---------------------------------------- */
 div#fugo{
 float:right
+}
+
+//CSS for Photo Gallery layout
+.photo-gallery {
+	-moz-column-count: 3;
+	-moz-column-gap: 4px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 4px;
+	column-count: 3;
+	column-gap: 4px;
+	width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+ 
+.photo-gallery li {
+    display: inline-block;
+    margin-bottom: 4px;
+    position: relative;
+    width: 100%;
+}
+
+.rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba($heading-font-color, 0.75);
+}
+
+.picture:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }

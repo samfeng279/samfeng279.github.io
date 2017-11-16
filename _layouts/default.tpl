@@ -6,12 +6,12 @@
 
 <body>
 	{% include nav.inc %}
-	<main>
-		<article>
-			{{ content }}
-		</article>
-<!--		{% include footer.inc %}-->
-	</main>
+    <main>
+        <article>
+            <h2>{{ page.heading }}</h2>
+            {{ content }}
+        </article>
+    </main>
 </body>
 	
 </html>

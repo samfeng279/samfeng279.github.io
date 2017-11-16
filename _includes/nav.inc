@@ -1,5 +1,5 @@
 <aside>
-	<div class="container">
+	<div class="nav-container">
 		<nav>
 			<ul>
 			<li>
@@ -8,7 +8,6 @@
 				{% for page in site.pages %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
-                <li><a href="mailto:samfeng279@gmail.com">Contact</a></li>
                 <li><a href="{{ site.baseurl }}/assets/files/resume.pdf">Resume</a></li>
 			</ul>
 			</li>
