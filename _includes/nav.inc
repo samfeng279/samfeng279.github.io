@@ -1,4 +1,4 @@
-<aside>
+<aside class="{{page.layout}}">
 	<div class="nav-container">
 		<nav>
 			<ul>
