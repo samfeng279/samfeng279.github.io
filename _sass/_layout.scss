@@ -105,7 +105,7 @@ article {
 /* Aside */
 
 aside {
-	position: relative;
+	position: fixed;
     display: inline-block;
 	top: 0;
 	left: 0;
@@ -149,10 +149,6 @@ aside {
 			clear: both;
 		}
 	}
-}
-
-aside.home {
-    position: absolute;
 }
 
 footer {
