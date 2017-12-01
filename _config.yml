@@ -10,17 +10,13 @@ github_username:  samfeng279
 
 permalink: pretty
 
-collections:
-  _collection:
-    output: true
-    permalink: /collection/:title.html
-
 # Build settings
 sass:
   sass_dir: _sass
 include: ['_pages']
-# kramdown:
-#  input: GFM
+
+keep_files: [assets]
+
 markdown: kramdown
 
 plug-ins:

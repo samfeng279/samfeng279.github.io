@@ -2,7 +2,7 @@
 /*global $, jQuery, alert*/
 
 $(document).ready(function () {
-   $('.photo-gallery a').mouseover(function() {
-       console.log('yes');
-   });
+//   $('.photo-gallery a').mouseover(function() {
+//       
+//   });
 });

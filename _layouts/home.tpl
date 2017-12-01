@@ -7,13 +7,11 @@
 </header>
 
 <body>
-	{% include head.inc %}
     {% include nav.inc %}
 	<main>
 		<article>
 			{{ content }}
 		</article>
-<!--		{% include footer.inc %}-->
 	</main>
 </body>
 	
