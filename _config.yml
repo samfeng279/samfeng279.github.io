@@ -15,12 +15,10 @@ sass:
   sass_dir: _sass
 include: ['_pages']
 
-keep_files: [assets]
-
 markdown: kramdown
 
-plug-ins:
-  - jekyll-feed
+keep_files: [assets]
 exclude:
   - Gemfile
   - Gemfile.lock
+  - assets

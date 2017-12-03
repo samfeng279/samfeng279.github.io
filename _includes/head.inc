@@ -21,4 +21,5 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <script src="{{ "/assets/js/common.js" | prepend: site.baseurl }}"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.png" >
 </head>
