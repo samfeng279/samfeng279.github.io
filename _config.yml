@@ -21,4 +21,3 @@ keep_files: [assets]
 exclude:
   - Gemfile
   - Gemfile.lock
-  - assets
