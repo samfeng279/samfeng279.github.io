@@ -24,6 +24,7 @@ images:
   - image_path: /samfeng279.github.io/assets/images/dragons-back.jpg
     title: Dragon's Back, Hong Kong
 permalink: gallery/
+published: true
 ---
 
 <ul class="photo-gallery">
