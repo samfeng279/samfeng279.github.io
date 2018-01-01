@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
-{% include head.inc %}
-
-<body>
-	{% include nav.inc %}
-    
-    {{ content }}
-
-</body>
-	
+    {% include head.inc %}
+    {% include nav.inc %}
+    <body>
+        {{ content }}
+    </body>	
 </html>

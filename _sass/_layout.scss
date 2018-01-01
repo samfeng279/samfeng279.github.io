@@ -3,13 +3,22 @@ html {
 }
 
 body {
-	margin: 0;
-	color: $font-color;
 	font-family: $font-style;
 	font-size: 1.1em;
-	line-height: 1.6;
-	-webkit-font-smoothing: antialiased;
     height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+header,
+main {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+header.fade-out,
+main.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 h1,
@@ -165,43 +174,6 @@ aside {
 	}
 }
 
-footer {
-	text-align: center;
-}
-
-/**
- * Site footer
- */
-.site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
-}
-
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-    }
-}
-
 /**
  * Images
  */
@@ -244,12 +216,12 @@ li {
     width: 100%;
 }
 
-.rotateimg90 {
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+.picture:hover {
+    cursor: pointer;
+}
+
+.picture:hover .overlay {
+    opacity: 1;
 }
 
 .overlay {
@@ -259,15 +231,11 @@ li {
     left: 0;
     right: 0;
     opacity: 0;
-    transition: .5s ease;
+    transition: opacity 0.25s ease;
     background-color: rgba($heading-font-color, 0.75);
 }
 
-.picture:hover .overlay {
-    opacity: 1;
-}
-
-.text {
+.overlay-text {
     color: white;
     font-size: 20px;
     left: 50%;
@@ -276,4 +244,13 @@ li {
     top: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+.modal-dialog {
+    display: table;
+}
+
+.modal img {
+    max-width: 80vw;
+    max-height: 75vh;
 }

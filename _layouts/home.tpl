@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header class="home">
+<header class="home fade-out">
     <div class="home-center">
         <h1>Sam Feng</h1>
         <ul>
