@@ -126,7 +126,6 @@ article {
 }
 
 /* Aside */
-
 aside {
 	position: static;
     display: inline-block;
@@ -172,6 +171,16 @@ aside {
 	}
 }
 
+.navbar-header button {
+    background-color: $header;
+    color: $main;
+    float: right;
+    display: block;
+    outline: none;
+    margin: 0.2em;
+    padding: .275rem .55rem;
+}
+
 @media only screen and (min-width : 681px) {
     .desktop-nav {
         display: block;
@@ -188,19 +197,11 @@ aside {
     .mobile-nav {
         display: block;
         width: 100%;
-    }
-    .navbar-header button {
-        background-color: $header;
-        color: $main;
-        float: right;
-        display: block;
-        outline: none;
-        margin: 0.2em;
-    }
-    .mobile-nav a {
-        float: none;
-        display: block;
-        text-align: left;
+        a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
     }
     .nav-container,
     main {

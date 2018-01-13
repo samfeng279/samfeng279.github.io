@@ -3,21 +3,45 @@ layout: page
 title: Photo Gallery
 heading: Places I'd Go Back To
 images:
-  - image_path: /samfeng279.github.io/assets/images/background.jpg
-    title: Peyto Lake, Alberta
-    modal: peyto
+  - image_path: /samfeng279.github.io/assets/images/seymour2.jpg
+    title: Mount Seymour, BC
+    modal: seymour2
+  - image_path: /samfeng279.github.io/assets/images/seymour.jpg
+    title: Mount Seymour, BC
+    modal: seymour
   - image_path: /samfeng279.github.io/assets/images/quarry-rock.jpg
     title: Quarry Rock, BC
     modal: quarry
+  - image_path: /samfeng279.github.io/assets/images/background.jpg
+    title: Peyto Lake, AB
+    modal: peyto
+  - image_path: /samfeng279.github.io/assets/images/athabasca.jpg
+    title: Athabasca Falls, AB
+    modal: athabasca
+  - image_path: /samfeng279.github.io/assets/images/sunwapta.jpg
+    title: Sunwapta Falls, AB
+    modal: sunwapta
+  - image_path: /samfeng279.github.io/assets/images/louis-creek.jpg
+    title: Louis Creek, BC
+    modal: louis
   - image_path: /samfeng279.github.io/assets/images/brunswick-mountain.jpg
     title: Brunswick Mountain, BC
     modal: brunswick
   - image_path: /samfeng279.github.io/assets/images/niagra-falls.jpg
-    title: Niagra Falls, Ontario
+    title: Niagra Falls, ON
     modal: niagra
-  - image_path: /samfeng279.github.io/assets/images/california.png
-    title: Laguna Beach, California
+  - image_path: /samfeng279.github.io/assets/images/california.jpg
+    title: Laguna Beach, CA
     modal: laguna
+  - image_path: /samfeng279.github.io/assets/images/disneyland.jpg
+    title: Disneyland, CA
+    modal: disneyland
+  - image_path: /samfeng279.github.io/assets/images/cit.jpg
+    title: CalTec, CA
+    modal: caltech
+  - image_path: /samfeng279.github.io/assets/images/kygo.jpg
+    title: Kygo - Toronto, ON
+    modal: kygo
   - image_path: /samfeng279.github.io/assets/images/xihu.jpg
     title: Xihu, Hangzhou
     modal: xihu

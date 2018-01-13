@@ -13,7 +13,7 @@
 		</nav>
         <nav class="mobile-nav">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsedNav" aria-expanded="false">&#9776;</button>
+              <button class="navbar-toggle collapsed btn" data-toggle="collapse" data-target="#collapsedNav" aria-expanded="false">&#9776;</button>
             </div>
 
             <div class="collapse navbar-collapse" id="collapsedNav">
