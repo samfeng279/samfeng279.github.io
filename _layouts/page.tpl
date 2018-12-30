@@ -9,4 +9,5 @@ layout: default
     </article>
 </main>
 
+{% include photo.inc folder='/samfeng279.github.io/assets/images' %}
    

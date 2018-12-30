@@ -32,9 +32,10 @@ h3 {
 .home-center {
     background-color: rgba(0,40,0,0.5);
     padding: 1%;
-    white-space: nowrap;
-    h1 {
-        color: white;
+    width: 40%;
+    p {
+        color: white; 
+        word-wrap: normal;
     }
     ul {
         list-style: none;
@@ -96,6 +97,27 @@ a:hover {
 	text-decoration: underline;
 }
 
+.light-nav a, 
+.light-nav a:visited {
+    color: white;
+}
+
+.dark-nav nav {
+    background: $light;
+}
+
+.nav-brand {
+    float: left;
+    font-weight: 600;
+    a {
+        font-size: 2em;
+    }
+}
+
+.nav-links {
+    float: right;
+} 
+
 header {
     background-image: url("/samfeng279.github.io/assets/images/background.jpg");
     background-size: cover;
@@ -107,6 +129,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+//    filter: grayscale(100%)
 }
 
 padding {
@@ -128,7 +151,6 @@ article {
 /* Aside */
 aside {
 	position: static;
-    display: inline-block;
 	top: 0;
 	left: 0;
 	background: #fff;
@@ -136,15 +158,13 @@ aside {
 	z-index: 2;
 	box-shadow: 0px 2px 4px RGBA(4, 25, 54, .1);
 	nav {
-		float: left;
-		max-width: 800px;
 		margin: 0 auto;
+        padding: 0.5em;
         ul {
             list-style: none;
             margin: 0;
-			padding: 0;
+			padding: 0.5em;
             li {
-                border: 1px solid rgba($light, 0.75);
                 float: left;
                 position: relative;
                 margin: -1px 0 0 -1px;
@@ -183,10 +203,16 @@ aside {
 
 @media only screen and (min-width : 681px) {
     .desktop-nav {
-        display: block;
+        display: flex;
     }
     .mobile-nav {
         display: none;
+    }
+    main {
+        margin: 0em 10em;
+    }
+    .page {
+        margin: 6em 1em;
     }
 }
 
@@ -202,10 +228,23 @@ aside {
             display: block;
             text-align: left;
         }
+        li {
+            border: none;
+            float: none;
+        }
+    }
+    .light-nav a {
+        background: $main;
     }
     .nav-container,
     main {
         margin: 0 2em;
+    }
+    .home-center {
+        width: 50%;
+    }
+    .page {
+        margin: 4em 1em;
     }
 }
 
