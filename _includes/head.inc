@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <script src="{{ "/assets/js/common.js" | prepend: site.baseurl }}"></script>
+    <link rel="stylesheet" href="{{ "/css/main.css" }}">
+    <script src="{{ "/assets/js/common.js" }}"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
 </head>

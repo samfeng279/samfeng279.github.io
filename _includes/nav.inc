@@ -9,10 +9,10 @@
 			<ul class="ml-auto">
 				{% for page in site.pages %} 
                     {% if page.published == true and page.title %}
-				        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 				    {% endif %} 
                 {% endfor %}
-                <li><a href="{{ site.baseurl }}/assets/files/resume.pdf">Resume</a></li>
+                <li><a href="/assets/files/resume.pdf">Resume</a></li>
 			</ul>
 		</nav>
         <nav class="mobile-nav fixed-top navbar navbar-expand-sm fixed-top navbar-light">
@@ -25,10 +25,10 @@
                 <li><a href="{{ site.url }}">Home</a></li>
 				{% for page in site.pages %} 
                     {% if page.published == true and page.title %}
-				        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 				    {% endif %} 
                 {% endfor %}
-                <li><a href="{{ site.baseurl }}/assets/files/resume.pdf">Resume</a></li>
+                <li><a href="/assets/files/resume.pdf">Resume</a></li>
               </ul>
             </div>
         </nav>

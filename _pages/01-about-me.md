@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content-page
 title: About Me
 heading: About Me
 permalink: about/

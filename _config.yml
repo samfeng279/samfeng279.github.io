@@ -2,7 +2,7 @@
 title: Sam Feng's Site
 description: >
   Hello and welcome! I'm a BME in my third year at UWaterloo.
-baseurl: "/samfeng279.github.io"
+baseurl: 
 url: "https://samfeng279.github.io"
 twitter_username:
 github_username:  samfeng279
@@ -13,6 +13,11 @@ permalink: pretty
 sass:
   sass_dir: _sass
 include: ['_pages']
+
+collections:
+  photos:
+    output: true
+    permalink: /photos/:path/
 
 markdown: kramdown
 
