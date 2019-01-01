@@ -39,7 +39,7 @@ layout: page
         </div>
     </div>
     
-    {% assign imageCollection = site.photos | sort: 'order' %}
+    {% assign imageCollection = site.photos | sort: 'order' | reverse %}
     {% assign size = imageCollection | size %}
     {% assign size = size | minus: 1 %}
     {% assign count = 0 %}
